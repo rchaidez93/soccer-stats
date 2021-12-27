@@ -1,0 +1,1783 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "live": "all"
+    },
+    "errors": [],
+    "results": 14,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 658718,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-08-26T16:00:00+00:00",
+                "timestamp": 1629993600,
+                "periods": {
+                    "first": 1629993600,
+                    "second": null
+                },
+                "venue": {
+                    "id": 1202,
+                    "name": "Jessheim Stadion",
+                    "city": "Jessheim"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 20
+                }
+            },
+            "league": {
+                "id": 104,
+                "name": "OBOS-ligaen",
+                "country": "Norway",
+                "logo": "https://media.api-sports.io/football/leagues/104.png",
+                "flag": "https://media.api-sports.io/flags/no.svg",
+                "season": 2021,
+                "round": "Regular Season - 14"
+            },
+            "teams": {
+                "home": {
+                    "id": 2154,
+                    "name": "Ull/Kisa",
+                    "logo": "https://media.api-sports.io/football/teams/2154.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 2142,
+                    "name": "Bryne",
+                    "logo": "https://media.api-sports.io/football/teams/2142.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 8,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2154,
+                        "name": "Ull/Kisa",
+                        "logo": "https://media.api-sports.io/football/teams/2154.png"
+                    },
+                    "player": {
+                        "id": 39330,
+                        "name": "S. Ringstad"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 12,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2154,
+                        "name": "Ull/Kisa",
+                        "logo": "https://media.api-sports.io/football/teams/2154.png"
+                    },
+                    "player": {
+                        "id": 57195,
+                        "name": "M. Sundli"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 711337,
+                "referee": "Vitaly Meshkov, Russia",
+                "timezone": "UTC",
+                "date": "2021-08-26T15:30:00+00:00",
+                "timestamp": 1629991800,
+                "periods": {
+                    "first": 1629991800,
+                    "second": null
+                },
+                "venue": {
+                    "id": 1352,
+                    "name": "Otkrytiye Arena",
+                    "city": "Moskva"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 45
+                }
+            },
+            "league": {
+                "id": 235,
+                "name": "Premier League",
+                "country": "Russia",
+                "logo": "https://media.api-sports.io/football/leagues/235.png",
+                "flag": "https://media.api-sports.io/flags/ru.svg",
+                "season": 2021,
+                "round": "Regular Season - 6"
+            },
+            "teams": {
+                "home": {
+                    "id": 558,
+                    "name": "Spartak Moscow",
+                    "logo": "https://media.api-sports.io/football/teams/558.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 2012,
+                    "name": "PFC Sochi",
+                    "logo": "https://media.api-sports.io/football/teams/2012.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 34,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "PFC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 3238,
+                        "name": "V. Angban"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Holding"
+                },
+                {
+                    "time": {
+                        "elapsed": 38,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 558,
+                        "name": "Spartak Moscow",
+                        "logo": "https://media.api-sports.io/football/teams/558.png"
+                    },
+                    "player": {
+                        "id": 1792,
+                        "name": "R. Zobnin"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Tripping"
+                },
+                {
+                    "time": {
+                        "elapsed": 39,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "PFC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 43347,
+                        "name": "T. Margasov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Tripping"
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2012,
+                        "name": "PFC Sochi",
+                        "logo": "https://media.api-sports.io/football/teams/2012.png"
+                    },
+                    "player": {
+                        "id": 80566,
+                        "name": "Rodrigo"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Elbowing"
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 739983,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-08-26T15:45:00+00:00",
+                "timestamp": 1629992700,
+                "periods": {
+                    "first": 1629992700,
+                    "second": null
+                },
+                "venue": {
+                    "id": 1363,
+                    "name": "Prince Abdullah bin Jalawi Sports City Stadium",
+                    "city": "Al-Hasa"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 35
+                }
+            },
+            "league": {
+                "id": 307,
+                "name": "Pro League",
+                "country": "Saudi-Arabia",
+                "logo": "https://media.api-sports.io/football/leagues/307.png",
+                "flag": "https://media.api-sports.io/flags/sa.svg",
+                "season": 2021,
+                "round": "Regular Season - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 2931,
+                    "name": "Al-Fateh",
+                    "logo": "https://media.api-sports.io/football/teams/2931.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2940,
+                    "name": "Al Shabab",
+                    "logo": "https://media.api-sports.io/football/teams/2940.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 16,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2931,
+                        "name": "Al-Fateh",
+                        "logo": "https://media.api-sports.io/football/teams/2931.png"
+                    },
+                    "player": {
+                        "id": 44516,
+                        "name": "M. Alfehaid"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 19,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2940,
+                        "name": "Al Shabab",
+                        "logo": "https://media.api-sports.io/football/teams/2940.png"
+                    },
+                    "player": {
+                        "id": 2050,
+                        "name": "E. Banega"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 21,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2940,
+                        "name": "Al Shabab",
+                        "logo": "https://media.api-sports.io/football/teams/2940.png"
+                    },
+                    "player": {
+                        "id": 2050,
+                        "name": "E. Banega"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 21,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2940,
+                        "name": "Al Shabab",
+                        "logo": "https://media.api-sports.io/football/teams/2940.png"
+                    },
+                    "player": {
+                        "id": 2050,
+                        "name": "E. Banega"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 25,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2931,
+                        "name": "Al-Fateh",
+                        "logo": "https://media.api-sports.io/football/teams/2931.png"
+                    },
+                    "player": {
+                        "id": 44324,
+                        "name": "F. Al Buraikan"
+                    },
+                    "assist": {
+                        "id": 2428,
+                        "name": "C. Cueva"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 739984,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-08-26T16:05:00+00:00",
+                "timestamp": 1629993900,
+                "periods": {
+                    "first": 1629993900,
+                    "second": null
+                },
+                "venue": {
+                    "id": 10516,
+                    "name": "Prince Sultan bin Abdulaziz Sports City Stadium",
+                    "city": "Abha"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 15
+                }
+            },
+            "league": {
+                "id": 307,
+                "name": "Pro League",
+                "country": "Saudi-Arabia",
+                "logo": "https://media.api-sports.io/football/leagues/307.png",
+                "flag": "https://media.api-sports.io/flags/sa.svg",
+                "season": 2021,
+                "round": "Regular Season - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 2951,
+                    "name": "Abha",
+                    "logo": "https://media.api-sports.io/football/teams/2951.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2934,
+                    "name": "Al-Ettifaq",
+                    "logo": "https://media.api-sports.io/football/teams/2934.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 9,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2934,
+                        "name": "Al-Ettifaq",
+                        "logo": "https://media.api-sports.io/football/teams/2934.png"
+                    },
+                    "player": {
+                        "id": 2866,
+                        "name": "R. Quaison"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 768787,
+                "referee": "I. Kružliak",
+                "timezone": "UTC",
+                "date": "2021-08-26T16:00:00+00:00",
+                "timestamp": 1629993600,
+                "periods": {
+                    "first": 1629993600,
+                    "second": null
+                },
+                "venue": {
+                    "id": 615,
+                    "name": "Bolt Arena",
+                    "city": "Helsinki"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 19
+                }
+            },
+            "league": {
+                "id": 3,
+                "name": "UEFA Europa League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/3.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Play-offs"
+            },
+            "teams": {
+                "home": {
+                    "id": 649,
+                    "name": "HJK helsinki",
+                    "logo": "https://media.api-sports.io/football/teams/649.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 611,
+                    "name": "Fenerbahce",
+                    "logo": "https://media.api-sports.io/football/teams/611.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 3,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 649,
+                        "name": "HJK helsinki",
+                        "logo": "https://media.api-sports.io/football/teams/649.png"
+                    },
+                    "player": {
+                        "id": 40577,
+                        "name": "S. Hostikka"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": "Elbowing"
+                },
+                {
+                    "time": {
+                        "elapsed": 11,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 611,
+                        "name": "Fenerbahce",
+                        "logo": "https://media.api-sports.io/football/teams/611.png"
+                    },
+                    "player": {
+                        "id": 35533,
+                        "name": "E. Valencia"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 14,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 611,
+                        "name": "Fenerbahce",
+                        "logo": "https://media.api-sports.io/football/teams/611.png"
+                    },
+                    "player": {
+                        "id": 35533,
+                        "name": "E. Valencia"
+                    },
+                    "assist": {
+                        "id": 49964,
+                        "name": "N. Sangare"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 768793,
+                "referee": "J. Beaton",
+                "timezone": "UTC",
+                "date": "2021-08-26T16:00:00+00:00",
+                "timestamp": 1629993600,
+                "periods": {
+                    "first": 1629993600,
+                    "second": null
+                },
+                "venue": {
+                    "id": 1175,
+                    "name": "Aspmyra Stadion",
+                    "city": "Bodø"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 20
+                }
+            },
+            "league": {
+                "id": 848,
+                "name": "UEFA Europa Conference League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/848.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Play-offs"
+            },
+            "teams": {
+                "home": {
+                    "id": 327,
+                    "name": "Bodo/Glimt",
+                    "logo": "https://media.api-sports.io/football/teams/327.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 586,
+                    "name": "FK Zalgiris Vilnius",
+                    "logo": "https://media.api-sports.io/football/teams/586.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": []
+        },
+        {
+            "fixture": {
+                "id": 768799,
+                "referee": "P. Kjærsgaard-Andersen",
+                "timezone": "UTC",
+                "date": "2021-08-26T16:00:00+00:00",
+                "timestamp": 1629993600,
+                "periods": {
+                    "first": 1629993600,
+                    "second": null
+                },
+                "venue": {
+                    "id": 760,
+                    "name": "Victoria Stadium",
+                    "city": "Gibraltar"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 21
+                }
+            },
+            "league": {
+                "id": 848,
+                "name": "UEFA Europa Conference League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/848.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Play-offs"
+            },
+            "teams": {
+                "home": {
+                    "id": 667,
+                    "name": "Lincoln Red Imps FC",
+                    "logo": "https://media.api-sports.io/football/teams/667.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 10124,
+                    "name": "Riga",
+                    "logo": "https://media.api-sports.io/football/teams/10124.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 19,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10124,
+                        "name": "Riga",
+                        "logo": "https://media.api-sports.io/football/teams/10124.png"
+                    },
+                    "player": {
+                        "id": 54370,
+                        "name": "Wesley"
+                    },
+                    "assist": {
+                        "id": 8623,
+                        "name": "M. Soisalo"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 768833,
+                "referee": "K. Tohver",
+                "timezone": "UTC",
+                "date": "2021-08-26T16:00:00+00:00",
+                "timestamp": 1629993600,
+                "periods": {
+                    "first": 1629993600,
+                    "second": null
+                },
+                "venue": {
+                    "id": 2359,
+                    "name": "Štadión Pod Dubňom",
+                    "city": "Žilina"
+                },
+                "status": {
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 20
+                }
+            },
+            "league": {
+                "id": 848,
+                "name": "UEFA Europa Conference League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/848.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Play-offs"
+            },
+            "teams": {
+                "home": {
+                    "id": 3554,
+                    "name": "Žilina",
+                    "logo": "https://media.api-sports.io/football/teams/3554.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1122,
+                    "name": "FK Jablonec",
+                    "logo": "https://media.api-sports.io/football/teams/1122.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": []
+        },
+        {
+            "fixture": {
+                "id": 684837,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-08-26T15:00:00+00:00",
+                "timestamp": 1629990000,
+                "periods": {
+                    "first": 1629990000,
+                    "second": 1629993600
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Stadion Spartak",
+                    "city": "Ryazan'"
+                },
+                "status": {
+                    "long": "Second Half",
+                    "short": "2H",
+                    "elapsed": 64
+                }
+            },
+            "league": {
+                "id": 649,
+                "name": "Supreme Division Women",
+                "country": "Russia",
+                "logo": "https://media.api-sports.io/football/leagues/649.png",
+                "flag": "https://media.api-sports.io/flags/ru.svg",
+                "season": 2021,
+                "round": "Regular Season - 19"
+            },
+            "teams": {
+                "home": {
+                    "id": 10921,
+                    "name": "Ryazan W",
+                    "logo": "https://media.api-sports.io/football/teams/10921.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 16492,
+                    "name": "Zvezda Perm W",
+                    "logo": "https://media.api-sports.io/football/teams/16492.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": []
+        },
+        {
+            "fixture": {
+                "id": 768791,
+                "referee": "T. Stieler",
+                "timezone": "UTC",
+                "date": "2021-08-26T15:00:00+00:00",
+                "timestamp": 1629990000,
+                "periods": {
+                    "first": 1629990000,
+                    "second": 1629993600
+                },
+                "venue": {
+                    "id": 1755,
+                    "name": "Stadion Nairi",
+                    "city": "Yerevan"
+                },
+                "status": {
+                    "long": "Second Half",
+                    "short": "2H",
+                    "elapsed": 60
+                }
+            },
+            "league": {
+                "id": 3,
+                "name": "UEFA Europa League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/3.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Play-offs"
+            },
+            "teams": {
+                "home": {
+                    "id": 582,
+                    "name": "Alashkert",
+                    "logo": "https://media.api-sports.io/football/teams/582.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 257,
+                    "name": "Rangers",
+                    "logo": "https://media.api-sports.io/football/teams/257.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 27,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 257,
+                        "name": "Rangers",
+                        "logo": "https://media.api-sports.io/football/teams/257.png"
+                    },
+                    "player": {
+                        "id": 1740,
+                        "name": "C. Goldson"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 36,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 582,
+                        "name": "Alashkert",
+                        "logo": "https://media.api-sports.io/football/teams/582.png"
+                    },
+                    "player": {
+                        "id": 54993,
+                        "name": "James"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 582,
+                        "name": "Alashkert",
+                        "logo": "https://media.api-sports.io/football/teams/582.png"
+                    },
+                    "player": {
+                        "id": 54993,
+                        "name": "James"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 40,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 582,
+                        "name": "Alashkert",
+                        "logo": "https://media.api-sports.io/football/teams/582.png"
+                    },
+                    "player": {
+                        "id": 54993,
+                        "name": "James"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Red Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 582,
+                        "name": "Alashkert",
+                        "logo": "https://media.api-sports.io/football/teams/582.png"
+                    },
+                    "player": {
+                        "id": 50955,
+                        "name": "V. Bezecourt"
+                    },
+                    "assist": {
+                        "id": 65329,
+                        "name": "R. Hovsepyan"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 770904,
+                "referee": "Nikola Popov, Bulgaria",
+                "timezone": "UTC",
+                "date": "2021-08-26T15:00:00+00:00",
+                "timestamp": 1629990000,
+                "periods": {
+                    "first": 1629990000,
+                    "second": 1629993600
+                },
+                "venue": {
+                    "id": 1882,
+                    "name": "Tsarsko selo Complex",
+                    "city": "Sofia"
+                },
+                "status": {
+                    "long": "Second Half",
+                    "short": "2H",
+                    "elapsed": 64
+                }
+            },
+            "league": {
+                "id": 172,
+                "name": "A PFG",
+                "country": "Bulgaria",
+                "logo": "https://media.api-sports.io/football/leagues/172.png",
+                "flag": "https://media.api-sports.io/flags/bg.svg",
+                "season": 2021,
+                "round": "Regular Season - 6"
+            },
+            "teams": {
+                "home": {
+                    "id": 1413,
+                    "name": "Tsarsko Selo",
+                    "logo": "https://media.api-sports.io/football/teams/1413.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 634,
+                    "name": "Botev Plovdiv",
+                    "logo": "https://media.api-sports.io/football/teams/634.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 45,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1413,
+                        "name": "Tsarsko Selo",
+                        "logo": "https://media.api-sports.io/football/teams/1413.png"
+                    },
+                    "player": {
+                        "id": 11083,
+                        "name": "L. Baltanov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 46,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 634,
+                        "name": "Botev Plovdiv",
+                        "logo": "https://media.api-sports.io/football/teams/634.png"
+                    },
+                    "player": {
+                        "id": 9881,
+                        "name": "Marquinhos"
+                    },
+                    "assist": {
+                        "id": 108501,
+                        "name": "K. Hoog Jansson"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 54,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 1413,
+                        "name": "Tsarsko Selo",
+                        "logo": "https://media.api-sports.io/football/teams/1413.png"
+                    },
+                    "player": {
+                        "id": 10663,
+                        "name": "S. Aleksandrov"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 722406,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-08-26T15:15:00+00:00",
+                "timestamp": 1629990900,
+                "periods": {
+                    "first": 1629990900,
+                    "second": null
+                },
+                "venue": {
+                    "id": 7142,
+                    "name": "Al Maktoum Stadium",
+                    "city": "Dubai"
+                },
+                "status": {
+                    "long": "Halftime",
+                    "short": "HT",
+                    "elapsed": 45
+                }
+            },
+            "league": {
+                "id": 301,
+                "name": "Arabian Gulf League",
+                "country": "United-Arab-Emirates",
+                "logo": "https://media.api-sports.io/football/leagues/301.png",
+                "flag": "https://media.api-sports.io/flags/ae.svg",
+                "season": 2021,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 10155,
+                    "name": "Al Nasr",
+                    "logo": "https://media.api-sports.io/football/teams/10155.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 9139,
+                    "name": "Al Urooba",
+                    "logo": "https://media.api-sports.io/football/teams/9139.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 4,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10155,
+                        "name": "Al Nasr",
+                        "logo": "https://media.api-sports.io/football/teams/10155.png"
+                    },
+                    "player": {
+                        "id": 50396,
+                        "name": "S. Tagliabue"
+                    },
+                    "assist": {
+                        "id": 50270,
+                        "name": "R. Mendes"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 24,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10155,
+                        "name": "Al Nasr",
+                        "logo": "https://media.api-sports.io/football/teams/10155.png"
+                    },
+                    "player": {
+                        "id": 50396,
+                        "name": "S. Tagliabue"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 33,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10155,
+                        "name": "Al Nasr",
+                        "logo": "https://media.api-sports.io/football/teams/10155.png"
+                    },
+                    "player": {
+                        "id": 10058,
+                        "name": "Glauber"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 35,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 9139,
+                        "name": "Al Urooba",
+                        "logo": "https://media.api-sports.io/football/teams/9139.png"
+                    },
+                    "player": {
+                        "id": 101635,
+                        "name": "A. Khamis"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 39,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10155,
+                        "name": "Al Nasr",
+                        "logo": "https://media.api-sports.io/football/teams/10155.png"
+                    },
+                    "player": {
+                        "id": 10058,
+                        "name": "Glauber"
+                    },
+                    "assist": {
+                        "id": 12939,
+                        "name": "D. Saba"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 42,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 10155,
+                        "name": "Al Nasr",
+                        "logo": "https://media.api-sports.io/football/teams/10155.png"
+                    },
+                    "player": {
+                        "id": 50396,
+                        "name": "S. Tagliabue"
+                    },
+                    "assist": {
+                        "id": 12939,
+                        "name": "D. Saba"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 722407,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-08-26T15:15:00+00:00",
+                "timestamp": 1629990900,
+                "periods": {
+                    "first": 1629990900,
+                    "second": null
+                },
+                "venue": {
+                    "id": 1601,
+                    "name": "Al Dhafra Stadium",
+                    "city": "Madinat Zaid"
+                },
+                "status": {
+                    "long": "Halftime",
+                    "short": "HT",
+                    "elapsed": 45
+                }
+            },
+            "league": {
+                "id": 301,
+                "name": "Arabian Gulf League",
+                "country": "United-Arab-Emirates",
+                "logo": "https://media.api-sports.io/football/leagues/301.png",
+                "flag": "https://media.api-sports.io/flags/ae.svg",
+                "season": 2021,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 2873,
+                    "name": "Al-Dhafra",
+                    "logo": "https://media.api-sports.io/football/teams/2873.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 2874,
+                    "name": "Sharjah FC",
+                    "logo": "https://media.api-sports.io/football/teams/2874.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 12,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2873,
+                        "name": "Al-Dhafra",
+                        "logo": "https://media.api-sports.io/football/teams/2873.png"
+                    },
+                    "player": {
+                        "id": 50333,
+                        "name": "M. Fayez"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 23,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2873,
+                        "name": "Al-Dhafra",
+                        "logo": "https://media.api-sports.io/football/teams/2873.png"
+                    },
+                    "player": {
+                        "id": 196773,
+                        "name": "M. Ghulam"
+                    },
+                    "assist": {
+                        "id": 283462,
+                        "name": "S. Mohamed"
+                    },
+                    "type": "subst",
+                    "detail": "Substitution 1",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 26,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2873,
+                        "name": "Al-Dhafra",
+                        "logo": "https://media.api-sports.io/football/teams/2873.png"
+                    },
+                    "player": {
+                        "id": 50381,
+                        "name": "A. Al Alebri"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 29,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2874,
+                        "name": "Sharjah FC",
+                        "logo": "https://media.api-sports.io/football/teams/2874.png"
+                    },
+                    "player": {
+                        "id": 3037,
+                        "name": "B. Malango Ngita"
+                    },
+                    "assist": {
+                        "id": 18761,
+                        "name": "Bernard"
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                },
+                {
+                    "time": {
+                        "elapsed": 34,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 2873,
+                        "name": "Al-Dhafra",
+                        "logo": "https://media.api-sports.io/football/teams/2873.png"
+                    },
+                    "player": {
+                        "id": 50567,
+                        "name": "K. Butti"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Card",
+                    "detail": "Yellow Card",
+                    "comments": null
+                }
+            ]
+        },
+        {
+            "fixture": {
+                "id": 765200,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-08-26T15:30:00+00:00",
+                "timestamp": 1629991800,
+                "periods": {
+                    "first": 1629991800,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Universidad San Marcos",
+                    "city": "Lima"
+                },
+                "status": {
+                    "long": "Halftime",
+                    "short": "HT",
+                    "elapsed": 45
+                }
+            },
+            "league": {
+                "id": 282,
+                "name": "Segunda Division",
+                "country": "Peru",
+                "logo": "https://media.api-sports.io/football/leagues/282.png",
+                "flag": "https://media.api-sports.io/flags/pe.svg",
+                "season": 2021,
+                "round": "Clausura - 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 4226,
+                    "name": "Santos",
+                    "logo": "https://media.api-sports.io/football/teams/4226.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 2556,
+                    "name": "Molinos El Pirata",
+                    "logo": "https://media.api-sports.io/football/teams/2556.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            },
+            "events": [
+                {
+                    "time": {
+                        "elapsed": 4,
+                        "extra": null
+                    },
+                    "team": {
+                        "id": 4226,
+                        "name": "Santos",
+                        "logo": "https://media.api-sports.io/football/teams/4226.png"
+                    },
+                    "player": {
+                        "id": 39497,
+                        "name": "C. Preciado"
+                    },
+                    "assist": {
+                        "id": null,
+                        "name": null
+                    },
+                    "type": "Goal",
+                    "detail": "Normal Goal",
+                    "comments": null
+                }
+            ]
+        }
+    ]
+}

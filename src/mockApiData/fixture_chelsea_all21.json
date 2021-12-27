@@ -1,0 +1,3143 @@
+{
+    "get": "fixtures",
+    "parameters": {
+        "season": "2021",
+        "team": "49"
+    },
+    "errors": [],
+    "results": 46,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "fixture": {
+                "id": 706410,
+                "referee": "Sergei Karasev, Russia",
+                "timezone": "UTC",
+                "date": "2021-08-11T19:00:00+00:00",
+                "timestamp": 1628708400,
+                "periods": {
+                    "first": 1628708400,
+                    "second": 1628712000
+                },
+                "venue": {
+                    "id": 1971,
+                    "name": "Windsor Park",
+                    "city": "Belfast"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "PEN",
+                    "elapsed": 120
+                }
+            },
+            "league": {
+                "id": 531,
+                "name": "UEFA Super Cup",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/531.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Final"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 533,
+                    "name": "Villarreal",
+                    "logo": "https://media.api-sports.io/football/teams/533.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "penalty": {
+                    "home": 6,
+                    "away": 5
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710558,
+                "referee": "J. Moss",
+                "timezone": "UTC",
+                "date": "2021-08-14T14:00:00+00:00",
+                "timestamp": 1628949600,
+                "periods": {
+                    "first": 1628949600,
+                    "second": 1628953200
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 52,
+                    "name": "Crystal Palace",
+                    "logo": "https://media.api-sports.io/football/teams/52.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710566,
+                "referee": "Paul Tierney, England",
+                "timezone": "UTC",
+                "date": "2021-08-22T15:30:00+00:00",
+                "timestamp": 1629646200,
+                "periods": {
+                    "first": 1629646200,
+                    "second": 1629649800
+                },
+                "venue": {
+                    "id": 494,
+                    "name": "Emirates Stadium",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 2"
+            },
+            "teams": {
+                "home": {
+                    "id": 42,
+                    "name": "Arsenal",
+                    "logo": "https://media.api-sports.io/football/teams/42.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710579,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-08-28T16:30:00+00:00",
+                "timestamp": 1630168200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 550,
+                    "name": "Anfield",
+                    "city": "Liverpool"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 3"
+            },
+            "teams": {
+                "home": {
+                    "id": 40,
+                    "name": "Liverpool",
+                    "logo": "https://media.api-sports.io/football/teams/40.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710588,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-09-11T16:30:00+00:00",
+                "timestamp": 1631377800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 4"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 66,
+                    "name": "Aston Villa",
+                    "logo": "https://media.api-sports.io/football/teams/66.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710603,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-09-19T15:30:00+00:00",
+                "timestamp": 1632065400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 593,
+                    "name": "Tottenham Hotspur Stadium",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 47,
+                    "name": "Tottenham",
+                    "logo": "https://media.api-sports.io/football/teams/47.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710608,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-09-25T11:30:00+00:00",
+                "timestamp": 1632569400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 6"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 50,
+                    "name": "Manchester City",
+                    "logo": "https://media.api-sports.io/football/teams/50.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710618,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-10-02T14:00:00+00:00",
+                "timestamp": 1633183200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 7"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 41,
+                    "name": "Southampton",
+                    "logo": "https://media.api-sports.io/football/teams/41.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710628,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-10-16T16:30:00+00:00",
+                "timestamp": 1634401800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 10503,
+                    "name": "Brentford Community Stadium",
+                    "city": "Brentford, Middlesex"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 8"
+            },
+            "teams": {
+                "home": {
+                    "id": 55,
+                    "name": "Brentford",
+                    "logo": "https://media.api-sports.io/football/teams/55.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710639,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-10-23T11:30:00+00:00",
+                "timestamp": 1634988600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 9"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 71,
+                    "name": "Norwich",
+                    "logo": "https://media.api-sports.io/football/teams/71.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710651,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-10-30T15:00:00+00:00",
+                "timestamp": 1635606000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 562,
+                    "name": "St. James' Park",
+                    "city": "Newcastle upon Tyne"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 10"
+            },
+            "teams": {
+                "home": {
+                    "id": 34,
+                    "name": "Newcastle",
+                    "logo": "https://media.api-sports.io/football/teams/34.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710659,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-11-06T15:00:00+00:00",
+                "timestamp": 1636210800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 11"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 44,
+                    "name": "Burnley",
+                    "logo": "https://media.api-sports.io/football/teams/44.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710668,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-11-20T15:00:00+00:00",
+                "timestamp": 1637420400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 547,
+                    "name": "King Power Stadium",
+                    "city": "Leicester, Leicestershire"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 12"
+            },
+            "teams": {
+                "home": {
+                    "id": 46,
+                    "name": "Leicester",
+                    "logo": "https://media.api-sports.io/football/teams/46.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710680,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-11-27T15:00:00+00:00",
+                "timestamp": 1638025200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 13"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 33,
+                    "name": "Manchester United",
+                    "logo": "https://media.api-sports.io/football/teams/33.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710689,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-11-30T19:45:00+00:00",
+                "timestamp": 1638301500,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 596,
+                    "name": "Vicarage Road",
+                    "city": "Watford"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 14"
+            },
+            "teams": {
+                "home": {
+                    "id": 38,
+                    "name": "Watford",
+                    "logo": "https://media.api-sports.io/football/teams/38.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710704,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-12-04T15:00:00+00:00",
+                "timestamp": 1638630000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 598,
+                    "name": "London Stadium",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 15"
+            },
+            "teams": {
+                "home": {
+                    "id": 48,
+                    "name": "West Ham",
+                    "logo": "https://media.api-sports.io/football/teams/48.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710710,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-12-11T15:00:00+00:00",
+                "timestamp": 1639234800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 16"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 63,
+                    "name": "Leeds",
+                    "logo": "https://media.api-sports.io/football/teams/63.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710723,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-12-15T20:00:00+00:00",
+                "timestamp": 1639598400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 17"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 45,
+                    "name": "Everton",
+                    "logo": "https://media.api-sports.io/football/teams/45.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710735,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-12-18T15:00:00+00:00",
+                "timestamp": 1639839600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 600,
+                    "name": "Molineux Stadium",
+                    "city": "Wolverhampton, West Midlands"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 18"
+            },
+            "teams": {
+                "home": {
+                    "id": 39,
+                    "name": "Wolves",
+                    "logo": "https://media.api-sports.io/football/teams/39.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710736,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-12-26T15:00:00+00:00",
+                "timestamp": 1640530800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 495,
+                    "name": "Villa Park",
+                    "city": "Birmingham"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 19"
+            },
+            "teams": {
+                "home": {
+                    "id": 66,
+                    "name": "Aston Villa",
+                    "logo": "https://media.api-sports.io/football/teams/66.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710748,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-12-28T15:00:00+00:00",
+                "timestamp": 1640703600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 20"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 51,
+                    "name": "Brighton",
+                    "logo": "https://media.api-sports.io/football/teams/51.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710758,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-01-01T15:00:00+00:00",
+                "timestamp": 1641049200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 21"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 40,
+                    "name": "Liverpool",
+                    "logo": "https://media.api-sports.io/football/teams/40.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710770,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-01-15T15:00:00+00:00",
+                "timestamp": 1642258800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 555,
+                    "name": "Etihad Stadium",
+                    "city": "Manchester"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 22"
+            },
+            "teams": {
+                "home": {
+                    "id": 50,
+                    "name": "Manchester City",
+                    "logo": "https://media.api-sports.io/football/teams/50.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710778,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-01-22T15:00:00+00:00",
+                "timestamp": 1642863600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 23"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 47,
+                    "name": "Tottenham",
+                    "logo": "https://media.api-sports.io/football/teams/47.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710787,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-02-08T19:45:00+00:00",
+                "timestamp": 1644349500,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 508,
+                    "name": "The American Express Community Stadium",
+                    "city": "Falmer, East Sussex"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 24"
+            },
+            "teams": {
+                "home": {
+                    "id": 51,
+                    "name": "Brighton",
+                    "logo": "https://media.api-sports.io/football/teams/51.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710798,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-02-12T15:00:00+00:00",
+                "timestamp": 1644678000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 25"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 42,
+                    "name": "Arsenal",
+                    "logo": "https://media.api-sports.io/football/teams/42.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710809,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-02-19T15:00:00+00:00",
+                "timestamp": 1645282800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 525,
+                    "name": "Selhurst Park",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 26"
+            },
+            "teams": {
+                "home": {
+                    "id": 52,
+                    "name": "Crystal Palace",
+                    "logo": "https://media.api-sports.io/football/teams/52.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710819,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-02-26T15:00:00+00:00",
+                "timestamp": 1645887600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 27"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 46,
+                    "name": "Leicester",
+                    "logo": "https://media.api-sports.io/football/teams/46.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710827,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-03-05T15:00:00+00:00",
+                "timestamp": 1646492400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 512,
+                    "name": "Turf Moor",
+                    "city": "Burnley"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 28"
+            },
+            "teams": {
+                "home": {
+                    "id": 44,
+                    "name": "Burnley",
+                    "logo": "https://media.api-sports.io/football/teams/44.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710839,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-03-12T15:00:00+00:00",
+                "timestamp": 1647097200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 29"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 34,
+                    "name": "Newcastle",
+                    "logo": "https://media.api-sports.io/football/teams/34.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710852,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-03-19T15:00:00+00:00",
+                "timestamp": 1647702000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 565,
+                    "name": "Carrow Road",
+                    "city": "Norwich, Norfolk"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 30"
+            },
+            "teams": {
+                "home": {
+                    "id": 71,
+                    "name": "Norwich",
+                    "logo": "https://media.api-sports.io/football/teams/71.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710858,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-04-02T14:00:00+00:00",
+                "timestamp": 1648908000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 31"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 55,
+                    "name": "Brentford",
+                    "logo": "https://media.api-sports.io/football/teams/55.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710874,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-04-09T14:00:00+00:00",
+                "timestamp": 1649512800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 585,
+                    "name": "St. Mary's Stadium",
+                    "city": "Southampton, Hampshire"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 32"
+            },
+            "teams": {
+                "home": {
+                    "id": 41,
+                    "name": "Southampton",
+                    "logo": "https://media.api-sports.io/football/teams/41.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710878,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-04-16T14:00:00+00:00",
+                "timestamp": 1650117600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 546,
+                    "name": "Elland Road",
+                    "city": "Leeds, West Yorkshire"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 33"
+            },
+            "teams": {
+                "home": {
+                    "id": 63,
+                    "name": "Leeds",
+                    "logo": "https://media.api-sports.io/football/teams/63.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710890,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-04-23T14:00:00+00:00",
+                "timestamp": 1650722400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 34"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 48,
+                    "name": "West Ham",
+                    "logo": "https://media.api-sports.io/football/teams/48.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710897,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-04-30T14:00:00+00:00",
+                "timestamp": 1651327200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 8560,
+                    "name": "Goodison Park",
+                    "city": "Liverpool"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 35"
+            },
+            "teams": {
+                "home": {
+                    "id": 45,
+                    "name": "Everton",
+                    "logo": "https://media.api-sports.io/football/teams/45.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710910,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-05-07T14:00:00+00:00",
+                "timestamp": 1651932000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 36"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 39,
+                    "name": "Wolves",
+                    "logo": "https://media.api-sports.io/football/teams/39.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710919,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-05-15T14:00:00+00:00",
+                "timestamp": 1652623200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 556,
+                    "name": "Old Trafford",
+                    "city": "Manchester"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 37"
+            },
+            "teams": {
+                "home": {
+                    "id": 33,
+                    "name": "Manchester United",
+                    "logo": "https://media.api-sports.io/football/teams/33.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 710930,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2022-05-22T15:00:00+00:00",
+                "timestamp": 1653231600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 39,
+                "name": "Premier League",
+                "country": "England",
+                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                "flag": "https://media.api-sports.io/flags/gb.svg",
+                "season": 2021,
+                "round": "Regular Season - 38"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 38,
+                    "name": "Watford",
+                    "logo": "https://media.api-sports.io/football/teams/38.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 736041,
+                "referee": "A. Marriner",
+                "timezone": "UTC",
+                "date": "2021-08-01T14:00:00+00:00",
+                "timestamp": 1627826400,
+                "periods": {
+                    "first": 1627826400,
+                    "second": 1627830000
+                },
+                "venue": {
+                    "id": 494,
+                    "name": "Emirates Stadium",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Club Friendlies 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 42,
+                    "name": "Arsenal",
+                    "logo": "https://media.api-sports.io/football/teams/42.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 736042,
+                "referee": "K. Stroud",
+                "timezone": "UTC",
+                "date": "2021-08-04T18:45:00+00:00",
+                "timestamp": 1628102700,
+                "periods": {
+                    "first": 1628102700,
+                    "second": 1628106300
+                },
+                "venue": {
+                    "id": 519,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Club Friendlies 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 47,
+                    "name": "Tottenham",
+                    "logo": "https://media.api-sports.io/football/teams/47.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 739335,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-07-17T08:00:00+00:00",
+                "timestamp": 1626508800,
+                "periods": {
+                    "first": 1626508800,
+                    "second": 1626512400
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Club Friendlies 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1350,
+                    "name": "Peterborough",
+                    "logo": "https://media.api-sports.io/football/teams/1350.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 6,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 6,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 740320,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-07-27T18:45:00+00:00",
+                "timestamp": 1627411500,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Club Friendlies 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 35,
+                    "name": "Bournemouth",
+                    "logo": "https://media.api-sports.io/football/teams/35.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 740414,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-07-22T17:30:00+00:00",
+                "timestamp": 1626975000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Cancelled",
+                    "short": "CANC",
+                    "elapsed": null
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Club Friendlies 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 3850,
+                    "name": "Drogheda United",
+                    "logo": "https://media.api-sports.io/football/teams/3850.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 747513,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-07-27T00:00:00+00:00",
+                "timestamp": 1627344000,
+                "periods": {
+                    "first": 1627344000,
+                    "second": 1627347600
+                },
+                "venue": {
+                    "id": 504,
+                    "name": "Vitality Stadium",
+                    "city": "Bournemouth, Dorset"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Club Friendlies 1"
+            },
+            "teams": {
+                "home": {
+                    "id": 35,
+                    "name": "Bournemouth",
+                    "logo": "https://media.api-sports.io/football/teams/35.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 778346,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2021-08-15T11:30:00+00:00",
+                "timestamp": 1629027000,
+                "periods": {
+                    "first": 1629027000,
+                    "second": 1629030600
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90
+                }
+            },
+            "league": {
+                "id": 667,
+                "name": "Friendlies Clubs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/667.png",
+                "flag": null,
+                "season": 2021,
+                "round": "Club Friendlies 5"
+            },
+            "teams": {
+                "home": {
+                    "id": 8665,
+                    "name": "Weymouth",
+                    "logo": "https://media.api-sports.io/football/teams/8665.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 13
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 8
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 13
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        }
+    ]
+}
