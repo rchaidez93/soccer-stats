@@ -1,0 +1,81 @@
+{
+    "get": "fixtures/events",
+    "parameters": {
+        "fixture": "710556",
+        "team": "42"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "time": {
+                "elapsed": 59,
+                "extra": null
+            },
+            "team": {
+                "id": 42,
+                "name": "Arsenal",
+                "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "player": {
+                "id": 138835,
+                "name": "F. Balogun"
+            },
+            "assist": {
+                "id": 1460,
+                "name": "B. Saka"
+            },
+            "type": "subst",
+            "detail": "Substitution 1",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 71,
+                "extra": null
+            },
+            "team": {
+                "id": 42,
+                "name": "Arsenal",
+                "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "player": {
+                "id": 127769,
+                "name": "Gabriel Martinelli"
+            },
+            "assist": {
+                "id": 727,
+                "name": "R. Nelson"
+            },
+            "type": "subst",
+            "detail": "Substitution 2",
+            "comments": null
+        },
+        {
+            "time": {
+                "elapsed": 81,
+                "extra": null
+            },
+            "team": {
+                "id": 42,
+                "name": "Arsenal",
+                "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "player": {
+                "id": 19016,
+                "name": "C. Chambers"
+            },
+            "assist": {
+                "id": 41577,
+                "name": "Nuno Tavares"
+            },
+            "type": "subst",
+            "detail": "Substitution 3",
+            "comments": null
+        }
+    ]
+}

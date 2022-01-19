@@ -1,18 +1,14 @@
 import React, { useEffect } from 'react';
 import TeamCard from '../components/TeamCard';
 import Grid from '@material-ui/core/Grid';
-import { getTeams } from '../api/teams';
+import teamsAPI from '../mockApiData/teams.json';
 
 const Teams = () => {
     const [teams, setTeams] = React.useState([]);
 
     useEffect(() => {
-        getTeams({params: {league: 39, season: '2021'}})
-        .then(apiResponse => {
-            const {data: {response}} = apiResponse;
-            setTeams(response);
-        })
-        .catch(error => console.log(error))
+        const {response } = teamsAPI;
+        setTeams(response);
     }, []);
 
     return (

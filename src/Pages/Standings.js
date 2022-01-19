@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { getStandings } from '../api/standings';
+import standingsPL21 from '../mockApiData/pl_standings_21.json';
 
 const columns = [
     { 
@@ -36,25 +36,23 @@ const Standings = () => {
     const [data, setData] = React.useState([]);
 
     useEffect(() => {
-        getStandings({params: {league: 39, season: '2021'}}).then(apiResponse => {
-            const {data: {response}} = apiResponse;
-            const {league: {standings}} = response[0];
-            if(standings[0].length > 0) {
-                const plStandings = standings[0].map(team => {
-                    return {
-                        logo: team.team.logo,
-                        id: team.rank,
-                        name: team.team.name,
-                        wins: team.all.win,
-                        draws: team.all.draw,
-                        lost: team.all.lose,
-                        points: team.points,
-                        goalDiff: team.goalsDiff
-                    }
-                });
-                setData(plStandings);
-            }
-        }).catch(error => console.log(error))
+        const {response } = standingsPL21;
+        const {league: {standings}} = response[0];
+        if(standings[0].length > 0) {
+            const plStandings = standings[0].map(team => {
+                return {
+                    logo: team.team.logo,
+                    id: team.rank,
+                    name: team.team.name,
+                    wins: team.all.win,
+                    draws: team.all.draw,
+                    lost: team.all.lose,
+                    points: team.points,
+                    goalDiff: team.goalsDiff
+                }
+            });
+            setData(plStandings);
+        }
     }, []);
 
     return (

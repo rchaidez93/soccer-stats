@@ -8,7 +8,9 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import Statistics from './Statistics';
 import GameEvents from './GameEvents';
-import { getGameStatistics, getGameEvents } from '../api/fixures';
+import mockHomeEvents from '../mockApiData/game_home_events.json';
+import mockAwayEvents from '../mockApiData/game_away_events.json';
+import mockStats from '../mockApiData/game_stats.json';
 
 
 const ResponsiveDialog = ({open, onClose, fixtureId, infoType, homeTeamId, awayTeamId}) => {
@@ -24,24 +26,13 @@ const ResponsiveDialog = ({open, onClose, fixtureId, infoType, homeTeamId, awayT
         if(fixtureId === null) return [];
 
         if(infoType === 'stats') {
-            getGameStatistics({params: {fixture: fixtureId}})
-            .then(apiResponse => {
-                const { response} = apiResponse.data;
-                setStats(response);
-            })
-            .catch(error => console.log(error));
+            const {response} = mockStats;
+            setStats(response);
         } else {
-            getGameEvents({params: {fixture: fixtureId, team: homeTeamId}})
-            .then(apiResponse => {
-                const { response} = apiResponse.data;
-                setHomeEvents(response);
-            }).catch(err=> console.log(err));
-
-            getGameEvents({params: {fixture: fixtureId, team: awayTeamId}})
-            .then(apiResponse => {
-                const { response} = apiResponse.data;
-                setAwayEvents(response);
-            }).catch(err=> console.log(err));
+            const { response: homeEvents} = mockHomeEvents;
+            const { response: awayEvents} = mockAwayEvents;
+            setHomeEvents(homeEvents);
+            setAwayEvents(awayEvents);
         }
 
     }, [fixtureId, infoType, homeTeamId, awayTeamId]);

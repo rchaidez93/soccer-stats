@@ -70,7 +70,6 @@ const Header = ({title, sections}) => {
                             </IconButton>
                         ):(
                             <Link
-                            // color="inherit"
                             noWrap
                             key={section.title}
                             variant="body2"

@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { getFixtures } from '../api/fixures';
 import { useRouter } from '../hooks/useRouter';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
@@ -7,6 +6,7 @@ import FixtureCard from '../components/FixtureCard';
 import { useDates } from '../hooks/useDates';
 import { useTheme } from '@material-ui/core';
 import WeekSelectionButtons from '../components/WeekSelectionButtons';
+import chelseaFixturePL21 from '../mockApiData/fixture_chelsea_pl21.json';
 
 
 const Fixtures = () => {
@@ -16,14 +16,10 @@ const Fixtures = () => {
     const theme = useTheme();
     
     useEffect(() => {
-        const {team} = query;
-
-        getFixtures({params: {team, season: '2021', league: 39, from:fromView, to:toView}})
-        .then(apiResponse => {
-            const {data: {response}} = apiResponse;
-            setFixtures(response);
-        })
-        .catch(error => console.log(error))
+        //can get fixtures for a specific team.
+        // const {team} = query;
+        const {response} = chelseaFixturePL21;
+        setFixtures(response);
     }, [query, setFixtures, fromView, toView]);
 
     return (

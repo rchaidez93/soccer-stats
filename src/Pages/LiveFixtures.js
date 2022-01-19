@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
-import { getFixtures, getLiveFixtures } from '../api/fixures';
 import { useDates } from '../hooks/useDates';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import FixtureCard from '../components/FixtureCard';
 import { useTheme } from '@material-ui/core';
 import WeekSelectionButtons from '../components/WeekSelectionButtons';
+import livePLFixtures from '../mockApiData/live_fixtures_pl.json';
+import fixturePL21 from '../mockApiData/premier_league_fixtures_21.json';
 
 const LiveFixtures = () => {
 
@@ -20,22 +21,14 @@ const LiveFixtures = () => {
 
     //PL live fixtures
     useEffect(() => {
-        getLiveFixtures()
-        .then(apiResponse => {
-            const { response} = apiResponse.data;
-            setLiveFixtures(response);
-        })
-        .catch(error => console.log(error));
+        const {response} = livePLFixtures;
+        setLiveFixtures(response);
     }, [setLiveFixtures]);
 
     //PL Fixtures
     useEffect(() => {
-        getFixtures({params: {season: '2021', league: 39, from:fromView, to:toView}})
-        .then(apiResponse => {
-            const {data: {response}} = apiResponse;
-            setFixtures(response.sort((a,b) => a.fixture.timestamp > b.fixture.timestamp ? 1 : -1));
-        })
-        .catch(error => console.log(error));
+        const {response} = fixturePL21;
+        setFixtures(response.sort((a,b) => a.fixture.timestamp > b.fixture.timestamp ? 1 : -1));
     } ,[setFixtures, fromView ,toView]);
 
     return (

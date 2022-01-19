@@ -1,7 +1,7 @@
 {
     "get": "fixtures/statistics",
     "parameters": {
-        "fixture": "710683"
+        "fixture": "710556"
     },
     "errors": [],
     "results": 2,
@@ -12,50 +12,50 @@
     "response": [
         {
             "team": {
-                "id": 40,
-                "name": "Liverpool",
-                "logo": "https://media.api-sports.io/football/teams/40.png"
+                "id": 55,
+                "name": "Brentford",
+                "logo": "https://media.api-sports.io/football/teams/55.png"
             },
             "statistics": [
                 {
                     "type": "Shots on Goal",
-                    "value": 6
+                    "value": 3
                 },
                 {
                     "type": "Shots off Goal",
-                    "value": 9
+                    "value": 5
                 },
                 {
                     "type": "Total Shots",
-                    "value": 20
+                    "value": 8
                 },
                 {
                     "type": "Blocked Shots",
-                    "value": 5
+                    "value": null
                 },
                 {
                     "type": "Shots insidebox",
-                    "value": 15
-                },
-                {
-                    "type": "Shots outsidebox",
-                    "value": 5
-                },
-                {
-                    "type": "Fouls",
                     "value": 7
                 },
                 {
-                    "type": "Corner Kicks",
-                    "value": 5
+                    "type": "Shots outsidebox",
+                    "value": 1
                 },
                 {
-                    "type": "Offsides",
+                    "type": "Fouls",
+                    "value": 12
+                },
+                {
+                    "type": "Corner Kicks",
                     "value": 2
                 },
                 {
+                    "type": "Offsides",
+                    "value": 1
+                },
+                {
                     "type": "Ball Possession",
-                    "value": "64%"
+                    "value": "35%"
                 },
                 {
                     "type": "Yellow Cards",
@@ -67,72 +67,72 @@
                 },
                 {
                     "type": "Goalkeeper Saves",
-                    "value": 3
+                    "value": 4
                 },
                 {
                     "type": "Total passes",
-                    "value": 600
+                    "value": 309
                 },
                 {
                     "type": "Passes accurate",
-                    "value": 485
+                    "value": 201
                 },
                 {
                     "type": "Passes %",
-                    "value": "81%"
+                    "value": "65%"
                 }
             ]
         },
         {
             "team": {
-                "id": 41,
-                "name": "Southampton",
-                "logo": "https://media.api-sports.io/football/teams/41.png"
+                "id": 42,
+                "name": "Arsenal",
+                "logo": "https://media.api-sports.io/football/teams/42.png"
             },
             "statistics": [
                 {
                     "type": "Shots on Goal",
-                    "value": 3
+                    "value": 4
                 },
                 {
                     "type": "Shots off Goal",
-                    "value": 1
-                },
-                {
-                    "type": "Total Shots",
-                    "value": 7
-                },
-                {
-                    "type": "Blocked Shots",
-                    "value": 3
-                },
-                {
-                    "type": "Shots insidebox",
-                    "value": 7
-                },
-                {
-                    "type": "Shots outsidebox",
-                    "value": null
-                },
-                {
-                    "type": "Fouls",
                     "value": 14
                 },
                 {
+                    "type": "Total Shots",
+                    "value": 22
+                },
+                {
+                    "type": "Blocked Shots",
+                    "value": 4
+                },
+                {
+                    "type": "Shots insidebox",
+                    "value": 13
+                },
+                {
+                    "type": "Shots outsidebox",
+                    "value": 9
+                },
+                {
+                    "type": "Fouls",
+                    "value": 8
+                },
+                {
                     "type": "Corner Kicks",
-                    "value": 7
+                    "value": 5
                 },
                 {
                     "type": "Offsides",
-                    "value": 2
+                    "value": 1
                 },
                 {
                     "type": "Ball Possession",
-                    "value": "36%"
+                    "value": "65%"
                 },
                 {
                     "type": "Yellow Cards",
-                    "value": 1
+                    "value": null
                 },
                 {
                     "type": "Red Cards",
@@ -140,19 +140,19 @@
                 },
                 {
                     "type": "Goalkeeper Saves",
-                    "value": 2
+                    "value": 1
                 },
                 {
                     "type": "Total passes",
-                    "value": 330
+                    "value": 568
                 },
                 {
                     "type": "Passes accurate",
-                    "value": 230
+                    "value": 488
                 },
                 {
                     "type": "Passes %",
-                    "value": "70%"
+                    "value": "86%"
                 }
             ]
         }

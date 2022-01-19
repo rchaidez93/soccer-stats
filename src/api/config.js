@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const axiosConfig = axios.create({
-    baseURL: "https://v3.football.api-sports.io",
+    baseURL: "http://localhost:8080/api",
 });
