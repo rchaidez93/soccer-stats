@@ -35,7 +35,7 @@ const Header = ({title, sections}) => {
 
     return (
         <>
-            <Toolbar className={classes.toolbar}>
+            <Toolbar className={classes.toolbar} id="back-to-top-anchor">
                 <Avatar src={PremierLeagueLogo} sizes="medium" />
                 <Typography
                 component="h2"
