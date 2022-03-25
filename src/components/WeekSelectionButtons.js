@@ -9,10 +9,17 @@ import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
 import CustomDatePicker from './CustomDatePicker';
 import Popover from '@material-ui/core/Popover';
+import { makeStyles } from '@material-ui/core/styles';
 
+
+const useStyles = makeStyles((theme) => ({
+    buttonGroup: {
+      borderRadius: 16
+    },
+}));
 
 const WeekSelectionButtons = ({onPreviousDates, onNextDates, from, to, fromView, toView, onFromChange, onToChange}) => {
-
+    const classes = useStyles();
     const theme = useTheme();
     const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -29,10 +36,10 @@ const WeekSelectionButtons = ({onPreviousDates, onNextDates, from, to, fromView,
 
     return (
         <>
-        <div style={{borderStyle:'solid', borderColor: 'lightgrey'}}>
+        <div>
             <div style={{margin:'16px'}}>
                 <Grid container>
-                    <ButtonGroup variant="contained" color="default" >
+                    <ButtonGroup variant="contained" color="default" classes={{root: classes.buttonGroup}}>
                         <Button variant="contained" onClick={()=>onPreviousDates(from)}>
                             <ArrowLeftIcon />
                         </Button>

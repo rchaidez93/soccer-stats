@@ -50,7 +50,7 @@ const ResponsiveDialog = ({open, onClose, fixtureId, infoType, homeTeamId, awayT
         }}
         >
             <DialogTitle id="responsive-dialog-title">{infoType=== 'stats' ? 'Statistics' : 'Events'}</DialogTitle>
-            <DialogContent dividers style={{height: 'inherit'}}>
+            <DialogContent dividers style={{height: '500px'}}>
                 {infoType === 'stats' ? <Statistics stats={stats}/> : <GameEvents homeEvents={homeEvents} awayEvents={awayEvents}/>}
             </DialogContent>
             <DialogActions>

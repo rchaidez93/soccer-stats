@@ -7,7 +7,7 @@ import { useRouter } from '../hooks/useRouter';
 
 const useStyles = makeStyles((theme) => ({
     mainFeaturedPost: {
-      backgroundColor: '#ff2982',
+      backgroundColor: '#552757',
       color: theme.palette.common.white,
       marginBottom: theme.spacing(4),
       height: theme.spacing(25)

@@ -58,6 +58,7 @@ const Standings = () => {
     return (
         <div style={{ height: 600, width: '100%' }}>
             <DataGrid
+                style={{backgroundColor: '#808080'}}
                 rows={data}
                 columns={columns}
                 pageSize={10}
