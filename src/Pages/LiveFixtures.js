@@ -5,8 +5,9 @@ import Grid from '@material-ui/core/Grid';
 import FixtureCard from '../components/FixtureCard';
 import { useTheme } from '@material-ui/core';
 import WeekSelectionButtons from '../components/WeekSelectionButtons';
-import livePLFixtures from '../mockApiData/live_fixtures_pl.json';
-import fixturePL21 from '../mockApiData/premier_league_fixtures_21.json';
+// import livePLFixtures from '../mockApiData/live_fixtures_pl.json';
+// import fixturePL21 from '../mockApiData/premier_league_fixtures_21.json';
+import { getFixtures, getLiveFixtures } from '../api/fixures';
 
 const LiveFixtures = () => {
 
@@ -21,14 +22,22 @@ const LiveFixtures = () => {
 
     //PL live fixtures
     useEffect(() => {
-        const {response} = livePLFixtures;
-        setLiveFixtures(response);
+        // const {response} = livePLFixtures;
+        // setLiveFixtures(response);
+        getLiveFixtures().then(({data}) => {
+            setLiveFixtures(data.data.response)
+        })
     }, [setLiveFixtures]);
 
     //PL Fixtures
     useEffect(() => {
-        const {response} = fixturePL21;
-        setFixtures(response.sort((a,b) => a.fixture.timestamp > b.fixture.timestamp ? 1 : -1));
+        // const {response} = fixturePL21;
+        // setFixtures(response.sort((a,b) => a.fixture.timestamp > b.fixture.timestamp ? 1 : -1));
+        getFixtures({params: {league: 39,season: 2021}})
+        .then(({data}) => {
+            console.log(data.data)
+            setFixtures(data.data.response.sort((a,b) => a.fixture.timestamp > b.fixture.timestamp ? 1 : -1));
+        })
     } ,[setFixtures, fromView ,toView]);
 
     return (

@@ -8,9 +8,10 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import Statistics from './Statistics';
 import GameEvents from './GameEvents';
-import mockHomeEvents from '../mockApiData/game_home_events.json';
-import mockAwayEvents from '../mockApiData/game_away_events.json';
-import mockStats from '../mockApiData/game_stats.json';
+// import mockHomeEvents from '../mockApiData/game_home_events.json';
+// import mockAwayEvents from '../mockApiData/game_away_events.json';
+// import mockStats from '../mockApiData/game_stats.json';
+import { getGameEvents, getGameStatistics } from '../api/fixures';
 
 
 const ResponsiveDialog = ({open, onClose, fixtureId, infoType, homeTeamId, awayTeamId}) => {
@@ -26,13 +27,25 @@ const ResponsiveDialog = ({open, onClose, fixtureId, infoType, homeTeamId, awayT
         if(fixtureId === null) return [];
 
         if(infoType === 'stats') {
-            const {response} = mockStats;
-            setStats(response);
+            // const {response} = mockStats;
+            getGameStatistics({params: {fixture: fixtureId}})
+            .then(({data}) => {
+                setStats(data.data.response);
+            });
+            
         } else {
-            const { response: homeEvents} = mockHomeEvents;
-            const { response: awayEvents} = mockAwayEvents;
-            setHomeEvents(homeEvents);
-            setAwayEvents(awayEvents);
+            // const { response: homeEvents} = mockHomeEvents;
+            // const { response: awayEvents} = mockAwayEvents;
+            getGameEvents({params: {fixture: fixtureId, team: homeTeamId}})
+            .then(({data}) => {
+                setHomeEvents(data.data.response);    
+            })
+            
+            getGameEvents({params: {fixture: fixtureId, team: awayTeamId}})
+            .then(({data}) => {
+                setAwayEvents(data.data.response);
+            })
+            
         }
 
     }, [fixtureId, infoType, homeTeamId, awayTeamId]);

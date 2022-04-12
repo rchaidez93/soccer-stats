@@ -6,7 +6,8 @@ import FixtureCard from '../components/FixtureCard';
 import { useDates } from '../hooks/useDates';
 import { useTheme } from '@material-ui/core';
 import WeekSelectionButtons from '../components/WeekSelectionButtons';
-import chelseaFixturePL21 from '../mockApiData/fixture_chelsea_pl21.json';
+// import chelseaFixturePL21 from '../mockApiData/fixture_chelsea_pl21.json';
+import { getFixtures } from '../api/fixures';
 
 
 const Fixtures = () => {
@@ -17,9 +18,13 @@ const Fixtures = () => {
     
     useEffect(() => {
         //can get fixtures for a specific team.
-        // const {team} = query;
-        const {response} = chelseaFixturePL21;
-        setFixtures(response);
+        const {team} = query;
+        // const {response} = chelseaFixturePL21;
+        // setFixtures(response);
+        getFixtures({params: {league: 39,season: 2021, team: team, from:fromView, to:toView}})
+        .then(({data}) => {
+            setFixtures(data.data.response);
+        })
     }, [query, setFixtures, fromView, toView]);
 
     return (
