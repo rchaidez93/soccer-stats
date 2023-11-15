@@ -33,7 +33,7 @@ const LiveFixtures = () => {
     useEffect(() => {
         // const {response} = fixturePL21;
         // setFixtures(response.sort((a,b) => a.fixture.timestamp > b.fixture.timestamp ? 1 : -1));
-        getFixtures({params: {league: 39,season: 2021}})
+        getFixtures({params: {league: 39,season: 2023}})
         .then(({data}) => {
             console.log(data.data)
             setFixtures(data.data.response.sort((a,b) => a.fixture.timestamp > b.fixture.timestamp ? 1 : -1));

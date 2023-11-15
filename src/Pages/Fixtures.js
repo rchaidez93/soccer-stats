@@ -21,7 +21,7 @@ const Fixtures = () => {
         const {team} = query;
         // const {response} = chelseaFixturePL21;
         // setFixtures(response);
-        getFixtures({params: {league: 39,season: 2021, team: team, from:fromView, to:toView}})
+        getFixtures({params: {league: 39,season: 2023, team: team, from:fromView, to:toView}})
         .then(({data}) => {
             setFixtures(data.data.response);
         })

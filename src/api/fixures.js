@@ -1,7 +1,7 @@
 import { axiosConfig } from "./config";
 
 export const getLiveFixtures = () => {
-    return axiosConfig.get(`/fixtures?live=all&season=2021&league=39`);
+    return axiosConfig.get(`/fixtures?live=all&season=2023&league=39`);
 };
 
 export const getFixtures = ({params}) => {

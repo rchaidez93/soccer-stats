@@ -9,7 +9,7 @@ const Teams = () => {
 
     useEffect(() => {
         // const {response } = teamsAPI;
-        getTeams({params: {league: 39,season:2021}})
+        getTeams({params: {league: 39,season:2023}})
         .then(({data})=> {
             setTeams(data.data.response);
         });

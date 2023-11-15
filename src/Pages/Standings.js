@@ -37,7 +37,7 @@ const Standings = () => {
     const [data, setData] = React.useState([]);
 
     useEffect(() => {
-        getStandings({params: {league: 39, season:2021}})
+        getStandings({params: {league: 39, season:2023}})
         .then(({data}) => {
             // const {response } = standingsPL21;
             const {league: {standings}} = data.data.response[0];
